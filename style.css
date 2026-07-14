@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #800080;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.952);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bio1{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.952);
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+    border: 5px solid #8800ff;
+    box-shadow: 5px 5px 5px rgba(152, 68, 255, 0.952)
+
+
+
+}
+
+#image2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#aboutme {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.952);
+}
+
+#ul1 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    background-color: black;
+    border-radius: 30px;
+    margin: 50px auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 50px;
+}
+
+#ul1 li{
+    max-width: 700px;
+    font-size: 20px;
+    /* margin: 5px auto; */
+    background-color: black;
+}
+
+.span1 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+}
+
+.span2{
+    margin-top: 20px;
+    background-color: black;
+    color: #ffffff93;
+}
+
+.CV {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: purple;
+    gap: 40px;
+}
+
+#submit {
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    background-color: black;
+     
+}
+
+#contactus {
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    background: black;
+
+}
